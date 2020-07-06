@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment | Insta Clone</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+</head>
+
+<body>
+    <main class="stories">
+        <div class="stories__list">
+            <div class="story__column">
+                <div class="user-info__column">
+                    <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+                    <img class="friends-story__img" src="images/man.jpg"></img>
+                    <div class="user-info__content">
+                        <span class="user-info__name">Santa</span>
+                        <span class="user-info__post-time">5 min</span>
+                    </div>
+                </div>
+                <div class="user-info__column">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="story__column">
+                <div class="user-post__column"><img class="friends-post__img" src="images/man.jpg"></img></div>
+                <div class="user-post__column">today's my photo</div>
+            </div>
+            <div class="story__column">
+                <div class="post-state__column">
+                    <i class="far fa-heart"></i>
+                    <span class="heart-count">1,357</span>
+                    <i class="far fa-comment-dots"></i>
+                    <span class="comment-count">146</span>
+                </div>
+                <div class="post-state__column">
+                    <i class="far fa-bookmark"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <ul class="comments-list">
+            <li class="comments">
+                <div class="user-info__column">
+                    <img class="profile-img friends-story__img" src="images/man.jpg"></img>
+                    <div class="user-info__content">
+                        <span class="user-info__name">Santa</span>
+                        <span class="user-info__post-time comments__comment">good!</span>
+                        <span class="user-info__post-info">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-reply"></i>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li class="comments">
+                <div class="user-info__column">
+                    <img class="profile-img friends-story__img" src="images/man.jpg"></img>
+                    <div class="user-info__content">
+                        <span class="user-info__name">Chris</span>
+                        <span class="user-info__post-time comments__comment">awesome!</span>
+                        <span class="user-info__post-info">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-reply"></i>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li class="comments">
+                <div class="user-info__column">
+                    <img class="profile-img friends-story__img" src="images/man.jpg"></img>
+                    <div class="user-info__content">
+                        <span class="user-info__name">Tomas</span>
+                        <span class="user-info__post-time comments__comment">cool!</span>
+                        <span class="user-info__post-info">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-reply"></i>
+                        </span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <nav class="nav">
+        <div class="chat_bar">
+            <img class="chat_bar-img" src="images/man.jpg"></img>
+            <div class="chat_bar-chat">
+                <input type="text" placeholder="Add a comment" class="chat_write">
+                <span class="chat_bar-send"><i class="far fa-paper-plane"></i></span>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
